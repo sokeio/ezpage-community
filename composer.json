@@ -1,0 +1,27 @@
+{
+    "name": "sokeio/ezpagecommunity",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nguyen Van Hau",
+            "email": "nguyenvanhaudev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["Sokeio\\EzpageCommunity\\EzpageCommunityServiceProvider"],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+         "files": [
+            "helpers/constraint.php",
+            "helpers/function.php"
+        ],
+        "psr-4": {
+            "Sokeio\\EzpageCommunity\\": "src",
+            "Sokeio\\EzpageCommunity\\Database\\Factories\\": "database/factories",
+            "Sokeio\\EzpageCommunity\\Database\\Seeders\\": "database/seeders"
+        }
+    }
+}
