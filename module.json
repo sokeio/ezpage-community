@@ -1,12 +1,12 @@
 {
-    "id":"module-ezpagecommunity-4a276d79-c38e-402a-aae5-8ecc2b521f616464712",
-    "name": "EzpageCommunity",
-    "version":"v1.0.0",
-    "alias": "ezpagecommunity",
-    "description": "",
-    "keywords": [],
-    "priority": 200,
-    "aliases": {},
-    "namespace":"Sokeio\\EzpageCommunity",
-    "requires": []
+  "id": "sokeio/ezpagecommunity",
+  "name": "EzpageCommunity",
+  "version": "v1.0.0",
+  "alias": "ezpagecommunity",
+  "description": "",
+  "keywords": [],
+  "priority": 200,
+  "aliases": {},
+  "namespace": "Sokeio\\EzpageCommunity",
+  "requires": []
 }
